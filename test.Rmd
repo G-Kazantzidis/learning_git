@@ -1,0 +1,18 @@
+---
+title: "Untitled"
+author: "George Kazantzidis"
+date: "02/10/2020"
+output: html_document
+---
+
+
+```{r}
+
+x<-seq(from =-5, to = 5, length.out = 100)
+t<-dnorm(x, sd = 1)
+plot(x,t)
+```
+
+
+Just a code for testing 
+
