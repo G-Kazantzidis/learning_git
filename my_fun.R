@@ -20,7 +20,7 @@ all_fac_l <- function(li)
   facto<-list()
   for( i in 1:num)
   {
-    facto[[i]] <- all_factors(li[[1]][i])$pos
+    facto[[i]] <- all_fac(li[[1]][i])$pos
     
   }
   return(facto) 
